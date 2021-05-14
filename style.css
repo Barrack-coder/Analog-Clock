@@ -106,3 +106,20 @@ body {
     transform-origin: bottom;
     z-index: 10;
 }
+
+.hand.hour-hand {
+    width: 3px;
+    height: 3%;
+}
+
+.hand.min-hand {
+    width: 50px;
+    height: 2%;
+}
+
+
+/*.hand.second-hand {
+    background-color: red;
+    width: 3px;
+    height: 48%;
+}
