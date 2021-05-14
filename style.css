@@ -107,19 +107,28 @@ body {
     z-index: 10;
 }
 
-.hand.hour-hand {
-    width: 3px;
-    height: 3%;
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    z-index: 11;
+    transform-origin: bottom;
 }
 
-.hand.min-hand {
-    width: 50px;
-    height: 2%;
+.hour-hand {
+    width: 5px;
+    height: 30%;
+    background-color: rgb(245, 4, 4);
 }
 
+.min-hand {
+    width: 4px;
+    height: 45%;
+    background-color: rgb(104, 84, 175);
+}
 
-/*.hand.second-hand {
-    background-color: red;
+.second-hand {
+    background-color: rgb(3, 3, 3);
     width: 3px;
-    height: 48%;
+    height: 10px;
 }
