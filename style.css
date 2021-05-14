@@ -4,7 +4,7 @@
 }
 
 html {
-    background: url("./images\ \(2\).jpeg") no-repeat;
+    background: url("./image/images\ \(2\).jpeg") no-repeat;
     background-size: cover;
     text-align: center;
     font-size: 10px;
@@ -28,4 +28,69 @@ body {
     position: relative;
     padding: 2rem;
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef, inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+
+.face .number {
+    --rotation: 0deg;
+    position: absolute;
+    font-size: 26px;
+    width: 100%;
+    height: 100%;
+    transform: rotate(var(--rotation));
+    text-align: center;
+}
+
+.face .number1 {
+    --rotation: 30deg;
+}
+
+.face .number2 {
+    --rotation: 60deg;
+}
+
+.face .number3 {
+    --rotation: 90deg;
+}
+
+.face .number4 {
+    --rotation: 120deg;
+}
+
+.face .number5 {
+    --rotation: 150deg;
+}
+
+.face .number6 {
+    --rotation: 180deg;
+}
+
+.face .number7 {
+    --rotation: 210deg;
+}
+
+.face .number8 {
+    --rotation: 240deg;
+}
+
+.face .number9 {
+    --rotation: 270deg;
+}
+
+.face .number10 {
+    --rotation: 300deg;
+}
+
+.face .number11 {
+    --rotation: 330deg;
+}
+
+.face .number12 {
+    --rotation: 360deg;
 }
